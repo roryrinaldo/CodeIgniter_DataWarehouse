@@ -1,0 +1,318 @@
+CRITICAL - 2023-08-03 16:23:55 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:23:57 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:23:57 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:25:14 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:25:16 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:25:16 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:26:57 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:26:57 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:26:57 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:26:57 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:26:58 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:27:00 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:27:00 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-08-03 16:27:00 --> Too few arguments to function App\Controllers\StafController::getData(), 1 passed in C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\StafController.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StafController->getData('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StafController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-08-03 16:53:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+      ...' at line 6 in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dim_caba...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dim_caba...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dim_caba...')
+#3 C:\xampp\htdocs\data_warehouse\app\Models\SektorUsahaModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT dim_caba...', Array)
+#4 C:\xampp\htdocs\data_warehouse\app\Controllers\SektorUsahaController.php(31): App\Models\SektorUsahaModel->getData('1', '1')
+#5 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\SektorUsahaController->getData('1', '1')
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SektorUsahaController))
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-03 16:53:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+      ...' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;')
+ 4 APPPATH\Models\SektorUsahaModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;', [...])
+ 5 APPPATH\Controllers\SektorUsahaController.php(31): App\Models\SektorUsahaModel->getData('1', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SektorUsahaController->getData('1', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SektorUsahaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-08-03 16:53:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+      ...' at line 6 in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dim_caba...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dim_caba...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dim_caba...')
+#3 C:\xampp\htdocs\data_warehouse\app\Models\SektorUsahaModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT dim_caba...', Array)
+#4 C:\xampp\htdocs\data_warehouse\app\Controllers\SektorUsahaController.php(31): App\Models\SektorUsahaModel->getData('1', '2')
+#5 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\SektorUsahaController->getData('1', '2')
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SektorUsahaController))
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-03 16:53:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+      ...' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;')
+ 4 APPPATH\Models\SektorUsahaModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;', [...])
+ 5 APPPATH\Controllers\SektorUsahaController.php(31): App\Models\SektorUsahaModel->getData('1', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SektorUsahaController->getData('1', '2')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SektorUsahaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-08-03 16:53:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+      ...' at line 6 in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dim_caba...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dim_caba...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dim_caba...')
+#3 C:\xampp\htdocs\data_warehouse\app\Models\SektorUsahaModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT dim_caba...', Array)
+#4 C:\xampp\htdocs\data_warehouse\app\Controllers\SektorUsahaController.php(31): App\Models\SektorUsahaModel->getData('1', '3')
+#5 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\SektorUsahaController->getData('1', '3')
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SektorUsahaController))
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-03 16:53:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+      ...' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;')
+ 4 APPPATH\Models\SektorUsahaModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;', [...])
+ 5 APPPATH\Controllers\SektorUsahaController.php(31): App\Models\SektorUsahaModel->getData('1', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SektorUsahaController->getData('1', '3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SektorUsahaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-08-03 16:53:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+      ...' at line 6 in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dim_caba...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dim_caba...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dim_caba...')
+#3 C:\xampp\htdocs\data_warehouse\app\Models\SektorUsahaModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT dim_caba...', Array)
+#4 C:\xampp\htdocs\data_warehouse\app\Controllers\SektorUsahaController.php(31): App\Models\SektorUsahaModel->getData('1', '1')
+#5 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\SektorUsahaController->getData('1', '1')
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SektorUsahaController))
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-03 16:53:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+      ...' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;')
+ 4 APPPATH\Models\SektorUsahaModel.php(32): CodeIgniter\Database\BaseConnection->query('SELECT dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha, SUM(fact_nasabah.jumlah_nasabah) AS total_nasabah 
+                FROM fact_nasabah 
+                JOIN dim_cabang ON fact_nasabah.id_cabang = dim_cabang.id_cabang 
+                JOIN dim_staf ON fact_nasabah.id_staf = dim_staf.id_staf
+                JOIN dim_sektor_usaha ON fact_nasabah.id_sektor_usaha = dim_sektor_usaha.id_sektor_usaha
+                WHERE fact_nasabah.id_waktu = ? AND fact_nasabah.id_cabang = ? AND fact_nasabah.id_sektor_usaha = ?
+                GROUP BY dim_cabang.cabang, dim_staf.staf, dim_sektor_usaha.sektor_usaha
+                ORDER BY total_nasabah DESC;', [...])
+ 5 APPPATH\Controllers\SektorUsahaController.php(31): App\Models\SektorUsahaModel->getData('1', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SektorUsahaController->getData('1', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SektorUsahaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')

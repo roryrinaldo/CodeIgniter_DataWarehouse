@@ -1,0 +1,315 @@
+CRITICAL - 2023-07-28 06:04:06 --> Division by zero
+in APPPATH\Models\DataModel.php on line 154.
+ 1 APPPATH\Models\DataModel.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php', 154, [...])
+ 2 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 06:14:11 --> Division by zero
+in APPPATH\Models\DataModel.php on line 153.
+ 1 APPPATH\Models\DataModel.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php', 153, [...])
+ 2 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 06:24:55 --> Division by zero
+in APPPATH\Models\DataModel.php on line 154.
+ 1 APPPATH\Models\DataModel.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php', 154, [...])
+ 2 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 06:25:49 --> Division by zero
+in APPPATH\Models\DataModel.php on line 154.
+ 1 APPPATH\Models\DataModel.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php', 154, [...])
+ 2 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 07:36:03 --> Division by zero
+in APPPATH\Models\DataModel.php on line 154.
+ 1 APPPATH\Models\DataModel.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php', 154, [...])
+ 2 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 08:01:58 --> Call to undefined method App\Models\DataModel::print_r
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataController.php(20): CodeIgniter\Model->__call('print_r', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 08:02:53 --> Call to undefined method App\Models\DataModel::var_dump
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataController.php(20): CodeIgniter\Model->__call('var_dump', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 08:02:54 --> Call to undefined method App\Models\DataModel::var_dump
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataController.php(20): CodeIgniter\Model->__call('var_dump', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 08:02:55 --> Call to undefined method App\Models\DataModel::var_dump
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataController.php(20): CodeIgniter\Model->__call('var_dump', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 08:03:00 --> Call to undefined method App\Models\DataModel::var_dump
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataController.php(20): CodeIgniter\Model->__call('var_dump', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 08:13:05 --> Invalid argument supplied for foreach()
+in APPPATH\Views\data\data.php on line 98.
+ 1 APPPATH\Views\data\data.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Views\\data\\data.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\data_warehouse\\app\\Views\\data\\data.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data/data', [], true)
+ 5 APPPATH\Controllers\DataController.php(55): view('data/data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 08:14:29 --> Invalid argument supplied for foreach()
+in APPPATH\Views\data\data.php on line 98.
+ 1 APPPATH\Views\data\data.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Views\\data\\data.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\data_warehouse\\app\\Views\\data\\data.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('data/data', [], true)
+ 5 APPPATH\Controllers\DataController.php(55): view('data/data', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 18:29:09 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH\Config\Routes.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 19:38:04 --> Call to undefined method CodeIgniter\View\View::getTopBanksByYear()
+in APPPATH\Views\grafik\bank.php on line 93.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('grafik/bank', [], true)
+ 4 APPPATH\Controllers\GrafikController.php(23): view('grafik/bank')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\GrafikController->bank()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrafikController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-28 19:41:00 --> Call to undefined method CodeIgniter\View\View::getTopBanksByYear()
+in APPPATH\Views\grafik\bank.php on line 93.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('grafik/bank', [], true)
+ 4 APPPATH\Controllers\GrafikController.php(37): view('grafik/bank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\GrafikController->bank()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrafikController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-28 19:54:38 --> mysqli_sql_exception: Unknown column 'dim_bank.nama_bank' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fact_na...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fact_na...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fact_na...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fact_na...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\Fact_NasabahModel.php(40): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\GrafikController.php(43): App\Models\Fact_NasabahModel->getTopBanksByYear(2019)
+#7 C:\xampp\htdocs\data_warehouse\app\Controllers\GrafikController.php(24): App\Controllers\GrafikController->getTopBanksByYear(2019)
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\GrafikController->bank()
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrafikController))
+#10 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-28 19:54:38 --> Unknown column 'dim_bank.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE `dim_waktu`.`waktu` = 2019
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE `dim_waktu`.`waktu` = 2019
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE `dim_waktu`.`waktu` = 2019
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE `dim_waktu`.`waktu` = 2019
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5', [], false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Fact_NasabahModel.php(40): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\GrafikController.php(43): App\Models\Fact_NasabahModel->getTopBanksByYear(2019)
+ 8 APPPATH\Controllers\GrafikController.php(24): App\Controllers\GrafikController->getTopBanksByYear(2019)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\GrafikController->bank()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrafikController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-28 19:55:06 --> mysqli_sql_exception: Unknown column 'dim_bank.nama_bank' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fact_na...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fact_na...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fact_na...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fact_na...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\Fact_NasabahModel.php(40): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\GrafikController.php(43): App\Models\Fact_NasabahModel->getTopBanksByYear(2019)
+#7 C:\xampp\htdocs\data_warehouse\app\Controllers\GrafikController.php(24): App\Controllers\GrafikController->getTopBanksByYear(2019)
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\GrafikController->bank()
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrafikController))
+#10 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-28 19:55:06 --> Unknown column 'dim_bank.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE YEAR(dim_waktu.waktu) = \'2019\'
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE YEAR(dim_waktu.waktu) = \'2019\'
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE YEAR(dim_waktu.waktu) = \'2019\'
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE YEAR(dim_waktu.waktu) = \'2019\'
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5', [], false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Fact_NasabahModel.php(40): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\GrafikController.php(43): App\Models\Fact_NasabahModel->getTopBanksByYear(2019)
+ 8 APPPATH\Controllers\GrafikController.php(24): App\Controllers\GrafikController->getTopBanksByYear(2019)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\GrafikController->bank()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrafikController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-28 19:55:11 --> mysqli_sql_exception: Unknown column 'dim_bank.nama_bank' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fact_na...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fact_na...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fact_na...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fact_na...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\system\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\Fact_NasabahModel.php(40): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\GrafikController.php(43): App\Models\Fact_NasabahModel->getTopBanksByYear(2019)
+#7 C:\xampp\htdocs\data_warehouse\app\Controllers\GrafikController.php(24): App\Controllers\GrafikController->getTopBanksByYear(2019)
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\GrafikController->bank()
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrafikController))
+#10 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-28 19:55:11 --> Unknown column 'dim_bank.nama_bank' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE YEAR(dim_waktu.waktu) = \'2019\'
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE YEAR(dim_waktu.waktu) = \'2019\'
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE YEAR(dim_waktu.waktu) = \'2019\'
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `fact_nasabah`.`id_bank`, SUM(fact_nasabah.jumlah_nasabah) as total_nasabah, `dim_bank`.`nama_bank`
+FROM `fact_nasabah`
+JOIN `dim_waktu` ON `dim_waktu`.`id_waktu` = `fact_nasabah`.`id_waktu`
+JOIN `dim_bank` ON `dim_bank`.`id_bank` = `fact_nasabah`.`id_bank`
+WHERE YEAR(dim_waktu.waktu) = \'2019\'
+GROUP BY `fact_nasabah`.`id_bank`
+ORDER BY `total_nasabah` DESC
+ LIMIT 5', [], false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\Fact_NasabahModel.php(40): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\GrafikController.php(43): App\Models\Fact_NasabahModel->getTopBanksByYear(2019)
+ 8 APPPATH\Controllers\GrafikController.php(24): App\Controllers\GrafikController->getTopBanksByYear(2019)
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\GrafikController->bank()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GrafikController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')

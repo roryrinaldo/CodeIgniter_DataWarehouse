@@ -1,0 +1,40 @@
+ERROR - 2023-07-13 09:20:59 --> mysqli_sql_exception: Cannot add foreign key constraint for `fact_nasabah` in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('TRUNCATE `fact_...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `fact_...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `fact_...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(2721): CodeIgniter\Database\BaseConnection->query('TRUNCATE `fact_...', NULL, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(31): CodeIgniter\Database\BaseBuilder->truncate()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(117): App\Models\DataModel->truncateTable('fact_nasabah')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-13 09:20:59 --> Cannot add foreign key constraint for `fact_nasabah`
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('TRUNCATE `fact_nasabah`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE `fact_nasabah`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE `fact_nasabah`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2721): CodeIgniter\Database\BaseConnection->query('TRUNCATE `fact_nasabah`', null, false)
+ 5 APPPATH\Models\DataModel.php(31): CodeIgniter\Database\BaseBuilder->truncate()
+ 6 APPPATH\Models\DataModel.php(117): App\Models\DataModel->truncateTable('fact_nasabah')
+ 7 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-13 10:19:37 --> syntax error, unexpected ';'
+in APPPATH\Models\DataModel.php on line 148.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DataModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DataModel')
+ 4 APPPATH\Controllers\DataController.php(15): spl_autoload_call('App\\Models\\DataModel')
+ 5 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\DataController->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')

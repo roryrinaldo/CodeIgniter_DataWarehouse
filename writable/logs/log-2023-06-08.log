@@ -1,0 +1,122 @@
+CRITICAL - 2023-06-08 17:36:26 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-06-08 16:28:35 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 16:31:26 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 16:32:29 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 16:32:35 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:50:11 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:57:30 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AuthController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:57:31 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AuthController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:57:33 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AuthController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:57:41 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AuthController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:58:13 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AuthController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:58:32 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\AuthController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:58:55 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:59:05 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 21:59:36 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 22:00:15 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 22:09:50 --> Class 'App\Controllers\UserModel' not found
+in APPPATH\Controllers\AuthController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-06-08 22:12:06 --> Call to a member function set() on null
+in APPPATH\Controllers\AuthController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AuthController->proses_login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')

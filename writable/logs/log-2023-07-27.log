@@ -1,0 +1,124 @@
+CRITICAL - 2023-07-27 19:45:55 --> Cannot use a scalar value as an array
+in APPPATH\Models\DataModel.php on line 145.
+ 1 APPPATH\Models\DataModel.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot use a scalar value as an array', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php', 145, [...])
+ 2 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-27 20:49:47 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_bank...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_bank...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_bank...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_bank...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(165): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(126): App\Models\DataModel->getDimensiId('dim_bank', 'bank', 'BANK RAKYAT IND...')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-27 20:49:47 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_bank`
+FROM `dim_bank`
+WHERE `bank` = \'BANK RAKYAT INDONESIA\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_bank`
+FROM `dim_bank`
+WHERE `bank` = \'BANK RAKYAT INDONESIA\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_bank`
+FROM `dim_bank`
+WHERE `bank` = \'BANK RAKYAT INDONESIA\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_bank`
+FROM `dim_bank`
+WHERE `bank` = :bank:', [...], false)
+ 5 APPPATH\Models\DataModel.php(165): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(126): App\Models\DataModel->getDimensiId('dim_bank', 'bank', 'BANK RAKYAT INDONESIA')
+ 7 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-27 20:49:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'data_warehouse', 3306, '', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(2721): CodeIgniter\Database\BaseConnection->query('TRUNCATE `data`', NULL, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(32): CodeIgniter\Database\BaseBuilder->truncate()
+#5 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(26): App\Models\DataModel->truncateTable('data')
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->clear()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(2721): CodeIgniter\Database\BaseConnection->query('TRUNCATE `data`', NULL, false)
+#3 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(32): CodeIgniter\Database\BaseBuilder->truncate()
+#4 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(26): App\Models\DataModel->truncateTable('data')
+#5 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->clear()
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-07-27 20:49:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2721): CodeIgniter\Database\BaseConnection->query('TRUNCATE `data`', null, false)
+ 3 APPPATH\Models\DataModel.php(32): CodeIgniter\Database\BaseBuilder->truncate()
+ 4 APPPATH\Controllers\DataController.php(26): App\Models\DataModel->truncateTable('data')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->clear()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-27 20:50:19 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(20): App\Models\DataModel->getAllData()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->index()
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#10 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-27 20:50:19 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `data`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `data`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `data`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `data`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\DataModel.php(27): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\DataController.php(20): App\Models\DataModel->getAllData()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')

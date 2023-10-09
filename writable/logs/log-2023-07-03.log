@@ -1,0 +1,477 @@
+CRITICAL - 2023-07-03 06:09:18 --> Call to undefined method App\Models\DataModel::getMaxValues
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\DataController.php(85): CodeIgniter\Model->__call('getMaxValues', [])
+ 2 APPPATH\Controllers\DataController.php(40): App\Controllers\DataController->fillEmptyData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-03 06:10:37 --> Too few arguments to function App\Models\DataModel::getMaxValues(), 0 passed in C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php on line 85 and exactly 1 expected
+in APPPATH\Models\DataModel.php on line 51.
+ 1 APPPATH\Controllers\DataController.php(85): App\Models\DataModel->getMaxValues()
+ 2 APPPATH\Controllers\DataController.php(40): App\Controllers\DataController->fillEmptyData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-03 06:14:06 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-07-03 06:38:18 --> mysqli_sql_exception: Unknown column 'dim_bank' in 'where clause' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(108): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(53): App\Models\DataModel->extractData('dim_bank', NULL)
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 06:38:18 --> Unknown column 'dim_bank' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `dim_bank`
+WHERE `dim_bank` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dim_bank`
+WHERE `dim_bank` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dim_bank`
+WHERE `dim_bank` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dim_bank`
+WHERE `dim_bank` IS NULL', [], false)
+ 5 APPPATH\Models\DataModel.php(108): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(53): App\Models\DataModel->extractData('dim_bank', null)
+ 7 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-03 06:40:41 --> mysqli_sql_exception: Unknown column 'bank' in 'where clause' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(108): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(57): App\Models\DataModel->extractData('dim_cabang', NULL)
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 06:40:41 --> Unknown column 'bank' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `dim_cabang`
+WHERE `bank` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `dim_cabang`
+WHERE `bank` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `dim_cabang`
+WHERE `bank` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `dim_cabang`
+WHERE `bank` IS NULL', [], false)
+ 5 APPPATH\Models\DataModel.php(108): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(57): App\Models\DataModel->extractData('dim_cabang', null)
+ 7 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-03 06:41:37 --> Too few arguments to function App\Models\DataModel::extractData(), 2 passed in C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php on line 53 and exactly 3 expected
+in APPPATH\Models\DataModel.php on line 103.
+ 1 APPPATH\Models\DataModel.php(53): App\Models\DataModel->extractData('dim_bank', null)
+ 2 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-03 06:44:26 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(111): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(52): App\Models\DataModel->extractData('dim_bank', 'bank', 'BANK RAKYAT IND...')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 06:44:26 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `dim_bank` (`bank`) VALUES (\'BANK RAKYAT INDONESIA\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dim_bank` (`bank`) VALUES (\'BANK RAKYAT INDONESIA\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dim_bank` (`bank`) VALUES (\'BANK RAKYAT INDONESIA\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dim_bank` (`bank`) VALUES (:bank:)', [...], false)
+ 5 APPPATH\Models\DataModel.php(111): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Models\DataModel.php(52): App\Models\DataModel->extractData('dim_bank', 'bank', 'BANK RAKYAT INDONESIA')
+ 7 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-03 06:45:50 --> mysqli_sql_exception: Unknown column 'waktu' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `waktu`,...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `waktu`,...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `waktu`,...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `waktu`,...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(87): App\Models\DataModel->getMaxValues('dim_waktu', 'waktu')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 06:45:50 --> Unknown column 'waktu' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `waktu`, COUNT(*) as count
+FROM `dim_waktu`
+GROUP BY `waktu`
+ORDER BY `count` DESC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `waktu`, COUNT(*) as count
+FROM `dim_waktu`
+GROUP BY `waktu`
+ORDER BY `count` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `waktu`, COUNT(*) as count
+FROM `dim_waktu`
+GROUP BY `waktu`
+ORDER BY `count` DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `waktu`, COUNT(*) as count
+FROM `dim_waktu`
+GROUP BY `waktu`
+ORDER BY `count` DESC
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\DataModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(87): App\Models\DataModel->getMaxValues('dim_waktu', 'waktu')
+ 7 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-03 06:48:36 --> mysqli_sql_exception: Unknown column 'waktu' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `waktu`,...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `waktu`,...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `waktu`,...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `waktu`,...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(87): App\Models\DataModel->getMaxValues('dim_waktu', 'waktu')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 06:48:36 --> Unknown column 'waktu' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `waktu`, COUNT(*) as count
+FROM `dim_waktu`
+GROUP BY `waktu`
+ORDER BY `count` DESC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `waktu`, COUNT(*) as count
+FROM `dim_waktu`
+GROUP BY `waktu`
+ORDER BY `count` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `waktu`, COUNT(*) as count
+FROM `dim_waktu`
+GROUP BY `waktu`
+ORDER BY `count` DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `waktu`, COUNT(*) as count
+FROM `dim_waktu`
+GROUP BY `waktu`
+ORDER BY `count` DESC
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\DataModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(87): App\Models\DataModel->getMaxValues('dim_waktu', 'waktu')
+ 7 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-03 06:52:02 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(111): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(84): App\Models\DataModel->extractData('dim_unit', 'unit', 'KOTA TENGAH')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 06:52:02 --> Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `dim_unit` (`unit`) VALUES (\'KOTA TENGAH\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dim_unit` (`unit`) VALUES (\'KOTA TENGAH\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dim_unit` (`unit`) VALUES (\'KOTA TENGAH\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dim_unit` (`unit`) VALUES (:unit:)', [...], false)
+ 5 APPPATH\Models\DataModel.php(111): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Models\DataModel.php(84): App\Models\DataModel->extractData('dim_unit', 'unit', 'KOTA TENGAH')
+ 7 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-03 06:55:33 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\BaseModel.php on line 1434.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-07-03 08:20:59 --> mysqli_sql_exception: Table 'data_warehouse.dim_unit' doesn't exist in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `unit`, ...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `unit`, ...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `unit`, ...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `unit`, ...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(83): App\Models\DataModel->getMaxValues('dim_unit', 'unit')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 08:20:59 --> Table 'data_warehouse.dim_unit' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `unit`, COUNT(*) as count
+FROM `dim_unit`
+GROUP BY `unit`
+ORDER BY `count` DESC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `unit`, COUNT(*) as count
+FROM `dim_unit`
+GROUP BY `unit`
+ORDER BY `count` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `unit`, COUNT(*) as count
+FROM `dim_unit`
+GROUP BY `unit`
+ORDER BY `count` DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `unit`, COUNT(*) as count
+FROM `dim_unit`
+GROUP BY `unit`
+ORDER BY `count` DESC
+ LIMIT 1', [], false)
+ 5 APPPATH\Models\DataModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(83): App\Models\DataModel->getMaxValues('dim_unit', 'unit')
+ 7 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-03 09:58:10 --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Headers already sent. You cannot change the session module\'s ini settings at this time', 'C:\\xampp\\htdocs\\data_warehouse\\system\\Session\\Handlers\\FileHandler.php', 72, [...])
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\data_warehouse\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(667): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\HTTP\RedirectResponse.php(132): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\DataController.php(60): CodeIgniter\HTTP\RedirectResponse->with('success', 'Data imported successfully.')
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-03 10:00:36 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 241209344 bytes)
+in APPPATH\Controllers\DataController.php on line 57.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-07-03 10:25:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT(nama_nasabah)
+FROM `data`' at line 1 in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DI...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DI...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DI...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DI...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(124): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(91): App\Models\DataModel->loadFactTable(Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 10:25:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT(nama_nasabah)
+FROM `data`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(DISTINCT(nama_nasabah)) AS DISTINCT(nama_nasabah)
+FROM `data`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(DISTINCT(nama_nasabah)) AS DISTINCT(nama_nasabah)
+FROM `data`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(DISTINCT(nama_nasabah)) AS DISTINCT(nama_nasabah)
+FROM `data`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(DISTINCT(nama_nasabah)) AS DISTINCT(nama_nasabah)
+FROM `data`', [], false)
+ 5 APPPATH\Models\DataModel.php(124): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(91): App\Models\DataModel->loadFactTable([...], null, null, null, null, null, null, null, null, null)
+ 7 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-03 10:28:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT(nama_nasabah))
+FROM `data`)...' at line 2 in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO fac...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO fac...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO fac...')
+#3 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(130): CodeIgniter\Database\BaseConnection->query('INSERT INTO fac...', Array)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(91): App\Models\DataModel->loadFactTable(Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-03 10:28:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT(nama_nasabah))
+FROM `data`)...' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO fact (id_waktu, id_staf, id_produk, id_sektor_usaha, id_bank, id_cabang, id_unit, id_penyebab_klaim, id_status, jumlah_nasabah, presentase_nasabah)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT(nama_nasabah))
+FROM `data`), ?)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO fact (id_waktu, id_staf, id_produk, id_sektor_usaha, id_bank, id_cabang, id_unit, id_penyebab_klaim, id_status, jumlah_nasabah, presentase_nasabah)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT(nama_nasabah))
+FROM `data`), ?)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO fact (id_waktu, id_staf, id_produk, id_sektor_usaha, id_bank, id_cabang, id_unit, id_penyebab_klaim, id_status, jumlah_nasabah, presentase_nasabah)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT(nama_nasabah))
+FROM `data`), ?)')
+ 4 APPPATH\Models\DataModel.php(130): CodeIgniter\Database\BaseConnection->query('INSERT INTO fact (id_waktu, id_staf, id_produk, id_sektor_usaha, id_bank, id_cabang, id_unit, id_penyebab_klaim, id_status, jumlah_nasabah, presentase_nasabah)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT(nama_nasabah))
+FROM `data`), ?)', [...])
+ 5 APPPATH\Models\DataModel.php(91): App\Models\DataModel->loadFactTable([...], null, null, null, null, null, null, null, null, null)
+ 6 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-03 10:29:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT nama_nasabah)
+FROM `data`), ?)' at line 2 in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO fac...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO fac...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO fac...')
+#3 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(130): CodeIgniter\Database\BaseConnection->query('INSERT INTO fac...', Array)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(91): App\Models\DataModel->loadFactTable(Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#5 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(42): App\Models\DataModel->insertData(Array)
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-03 10:29:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT nama_nasabah)
+FROM `data`), ?)' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO fact (id_waktu, id_staf, id_produk, id_sektor_usaha, id_bank, id_cabang, id_unit, id_penyebab_klaim, id_status, jumlah_nasabah, presentase_nasabah)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT nama_nasabah)
+FROM `data`), ?)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO fact (id_waktu, id_staf, id_produk, id_sektor_usaha, id_bank, id_cabang, id_unit, id_penyebab_klaim, id_status, jumlah_nasabah, presentase_nasabah)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT nama_nasabah)
+FROM `data`), ?)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO fact (id_waktu, id_staf, id_produk, id_sektor_usaha, id_bank, id_cabang, id_unit, id_penyebab_klaim, id_status, jumlah_nasabah, presentase_nasabah)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT nama_nasabah)
+FROM `data`), ?)')
+ 4 APPPATH\Models\DataModel.php(130): CodeIgniter\Database\BaseConnection->query('INSERT INTO fact (id_waktu, id_staf, id_produk, id_sektor_usaha, id_bank, id_cabang, id_unit, id_penyebab_klaim, id_status, jumlah_nasabah, presentase_nasabah)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, (SELECT COUNT(DISTINCT nama_nasabah)
+FROM `data`), ?)', [...])
+ 5 APPPATH\Models\DataModel.php(91): App\Models\DataModel->loadFactTable([...], null, null, null, null, null, null, null, null, null)
+ 6 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-03 10:31:14 --> A non-numeric value encountered
+in APPPATH\Models\DataModel.php on line 127.
+ 1 APPPATH\Models\DataModel.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php', 127, [...])
+ 2 APPPATH\Models\DataModel.php(91): App\Models\DataModel->loadFactTable([...], null, null, null, null, null, null, null, null, null)
+ 3 APPPATH\Controllers\DataController.php(42): App\Models\DataModel->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+CRITICAL - 2023-07-03 17:05:12 --> Division by zero
+in APPPATH\Models\DataModel.php on line 129.
+ 1 APPPATH\Models\DataModel.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'C:\\xampp\\htdocs\\data_warehouse\\app\\Models\\DataModel.php', 129, [...])
+ 2 APPPATH\Models\DataModel.php(94): App\Models\DataModel->loadFactTable([...], null, null, null, null, null, null, null, null, null)
+ 3 APPPATH\Controllers\DataController.php(48): App\Models\DataModel->insertData([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-03 17:06:30 --> mysqli_sql_exception: Unknown column 'persentase_nasabah' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `fa...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(149): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(94): App\Models\DataModel->loadFactTable(Array, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(48): App\Models\DataModel->insertData(Array)
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-03 17:06:30 --> Unknown column 'persentase_nasabah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `fact` (`id_waktu`, `id_staf`, `id_produk`, `id_sektor_usaha`, `id_bank`, `id_cabang`, `id_unit`, `id_penyebab_klaim`, `id_status`, `jumlah_nasabah`, `persentase_nasabah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fact` (`id_waktu`, `id_staf`, `id_produk`, `id_sektor_usaha`, `id_bank`, `id_cabang`, `id_unit`, `id_penyebab_klaim`, `id_status`, `jumlah_nasabah`, `persentase_nasabah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fact` (`id_waktu`, `id_staf`, `id_produk`, `id_sektor_usaha`, `id_bank`, `id_cabang`, `id_unit`, `id_penyebab_klaim`, `id_status`, `jumlah_nasabah`, `persentase_nasabah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, \'1\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fact` (`id_waktu`, `id_staf`, `id_produk`, `id_sektor_usaha`, `id_bank`, `id_cabang`, `id_unit`, `id_penyebab_klaim`, `id_status`, `jumlah_nasabah`, `persentase_nasabah`) VALUES (:id_waktu:, :id_staf:, :id_produk:, :id_sektor_usaha:, :id_bank:, :id_cabang:, :id_unit:, :id_penyebab_klaim:, :id_status:, :jumlah_nasabah:, :persentase_nasabah:)', [...], false)
+ 5 APPPATH\Models\DataModel.php(149): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Models\DataModel.php(94): App\Models\DataModel->loadFactTable([...], null, null, null, null, null, null, null, null, null)
+ 7 APPPATH\Controllers\DataController.php(48): App\Models\DataModel->insertData([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')

@@ -1,0 +1,212 @@
+ERROR - 2023-07-04 08:52:28 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(133): App\Models\DataModel->getDimensiId('dim_waktu', 'tahun', '2019-10-07')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-04 08:52:28 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dim_waktu`
+WHERE `tahun` = :tahun:', [...], false)
+ 5 APPPATH\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(133): App\Models\DataModel->getDimensiId('dim_waktu', 'tahun', '2019-10-07')
+ 7 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-04 09:02:39 --> mysqli_sql_exception: Unknown column 'id_waktu' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_wakt...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_wakt...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_wakt...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_wakt...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(134): App\Models\DataModel->getDimensiId('dim_staf', 'staf', 'FAHMI')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-04 09:02:39 --> Unknown column 'id_waktu' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_waktu`
+FROM `dim_staf`
+WHERE `staf` = \'FAHMI\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_waktu`
+FROM `dim_staf`
+WHERE `staf` = \'FAHMI\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_waktu`
+FROM `dim_staf`
+WHERE `staf` = \'FAHMI\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_waktu`
+FROM `dim_staf`
+WHERE `staf` = :staf:', [...], false)
+ 5 APPPATH\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(134): App\Models\DataModel->getDimensiId('dim_staf', 'staf', 'FAHMI')
+ 7 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-04 09:03:27 --> mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`\nFRO...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`\nFRO...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`\nFRO...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`\nFRO...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(133): App\Models\DataModel->getDimensiId('dim_waktu', 'tahun', '2019-10-07')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-04 09:03:27 --> Unknown column 'id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id`
+FROM `dim_waktu`
+WHERE `tahun` = :tahun:', [...], false)
+ 5 APPPATH\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(133): App\Models\DataModel->getDimensiId('dim_waktu', 'tahun', '2019-10-07')
+ 7 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-04 09:07:17 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`data_warehouse`.`fact_nasabah`, CONSTRAINT `fact_nasabah_ibfk_1` FOREIGN KEY (`id_waktu`) REFERENCES `dim_waktu` (`id_waktu`)) in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `fa...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fa...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fa...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fa...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(146): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+#6 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-07-04 09:07:17 --> Cannot add or update a child row: a foreign key constraint fails (`data_warehouse`.`fact_nasabah`, CONSTRAINT `fact_nasabah_ibfk_1` FOREIGN KEY (`id_waktu`) REFERENCES `dim_waktu` (`id_waktu`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `fact_nasabah` (`id_waktu`, `id_staf`, `id_produk`, `id_sektor_usaha`, `id_bank`, `id_cabang`, `id_unit`, `id_penyebab_klaim`, `id_status`, `jumlah_nasabah`, `persentase_nasabah`) VALUES (\'2019\', \'FAHMI\', \'KR2\', \'KREDIT INVESTASI\', \'BANK RAKYAT INDONESIA\', \'PASIR PANGARAIAN\', \'TANJUNG MEDAN\', \'MACET\', \'DISETUJUI\', 3090, 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `fact_nasabah` (`id_waktu`, `id_staf`, `id_produk`, `id_sektor_usaha`, `id_bank`, `id_cabang`, `id_unit`, `id_penyebab_klaim`, `id_status`, `jumlah_nasabah`, `persentase_nasabah`) VALUES (\'2019\', \'FAHMI\', \'KR2\', \'KREDIT INVESTASI\', \'BANK RAKYAT INDONESIA\', \'PASIR PANGARAIAN\', \'TANJUNG MEDAN\', \'MACET\', \'DISETUJUI\', 3090, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `fact_nasabah` (`id_waktu`, `id_staf`, `id_produk`, `id_sektor_usaha`, `id_bank`, `id_cabang`, `id_unit`, `id_penyebab_klaim`, `id_status`, `jumlah_nasabah`, `persentase_nasabah`) VALUES (\'2019\', \'FAHMI\', \'KR2\', \'KREDIT INVESTASI\', \'BANK RAKYAT INDONESIA\', \'PASIR PANGARAIAN\', \'TANJUNG MEDAN\', \'MACET\', \'DISETUJUI\', 3090, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `fact_nasabah` (`id_waktu`, `id_staf`, `id_produk`, `id_sektor_usaha`, `id_bank`, `id_cabang`, `id_unit`, `id_penyebab_klaim`, `id_status`, `jumlah_nasabah`, `persentase_nasabah`) VALUES (:id_waktu:, :id_staf:, :id_produk:, :id_sektor_usaha:, :id_bank:, :id_cabang:, :id_unit:, :id_penyebab_klaim:, :id_status:, :jumlah_nasabah:, :persentase_nasabah:)', [...], false)
+ 5 APPPATH\Models\DataModel.php(146): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-04 09:09:57 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_tahu...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tahu...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tahu...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_tahu...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(133): App\Models\DataModel->getDimensiId('dim_waktu', 'tahun', '2019-10-07')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-04 09:09:57 --> Unknown column 'id_tahun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_tahun`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tahun`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tahun`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_tahun`
+FROM `dim_waktu`
+WHERE `tahun` = :tahun:', [...], false)
+ 5 APPPATH\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(133): App\Models\DataModel->getDimensiId('dim_waktu', 'tahun', '2019-10-07')
+ 7 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
+ERROR - 2023-07-04 09:09:59 --> mysqli_sql_exception: Unknown column 'id_tahun' in 'field list' in C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\data_warehouse\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_tahu...', 0)
+#1 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tahu...')
+#2 C:\xampp\htdocs\data_warehouse\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tahu...')
+#3 C:\xampp\htdocs\data_warehouse\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_tahu...', Array, false)
+#4 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\data_warehouse\app\Models\DataModel.php(133): App\Models\DataModel->getDimensiId('dim_waktu', 'tahun', '2019-10-07')
+#6 C:\xampp\htdocs\data_warehouse\app\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+#7 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(934): App\Controllers\DataController->import()
+#8 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+#9 C:\xampp\htdocs\data_warehouse\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\data_warehouse\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\data_warehouse\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-07-04 09:09:59 --> Unknown column 'id_tahun' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `id_tahun`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tahun`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tahun`
+FROM `dim_waktu`
+WHERE `tahun` = \'2019-10-07\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `id_tahun`
+FROM `dim_waktu`
+WHERE `tahun` = :tahun:', [...], false)
+ 5 APPPATH\Models\DataModel.php(156): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\DataModel.php(133): App\Models\DataModel->getDimensiId('dim_waktu', 'tahun', '2019-10-07')
+ 7 APPPATH\Controllers\DataController.php(50): App\Models\DataModel->etlProcess()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\DataController->import()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\data_warehouse\\public\\index.php')
